@@ -31,7 +31,7 @@ vehicles-crud/
 
 Como Configurar:
 1. Clone o repositório:
-   git clone https://github.com/seu_usuario/vehicles_crud.git
+   git clone https://github.com/GustavoDimeira/vehicles_crud
    cd vehicles_crud
 
 2. Instale as dependências do backend:
