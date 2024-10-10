@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Veículos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CRUD de Veículos</h1>
+
+    <div class="crud-section">
+        <button class="toggle-button">Adicionar Veículo</button>
+        <div class="form-container">
+            <input type="text" id="cor" placeholder="Cor" required>
+            <input type="text" id="modelo" placeholder="Modelo" required>
+            <input type="text" id="placa" placeholder="Placa" required>
+            <button id="addVehicle">Adicionar Veículo</button>
+        </div>
+    </div>
+
+    <div class="crud-section">
+        <button class="toggle-button">Listar Veículos</button>
+        <div class="form-container">
+            <button id="listVehicles">Listar Veículos</button>
+            <ul id="vehicleList"></ul>
+        </div>
+    </div>
+
+    <div class="crud-section">
+        <button class="toggle-button">Atualizar Veículo</button>
+        <div class="form-container">
+            <input type="text" id="updateId" placeholder="ID do Veículo" required>
+            <input type="text" id="updateCor" placeholder="Nova Cor">
+            <input type="text" id="updateModelo" placeholder="Novo Modelo">
+            <input type="text" id="updatePlaca" placeholder="Nova Placa">
+            <button id="updateVehicle">Atualizar Veículo</button>
+        </div>
+    </div>
+
+    <div class="crud-section">
+        <button class="toggle-button">Deletar Veículo</button>
+        <div class="form-container">
+            <input type="text" id="deleteId" placeholder="ID do Veículo" required>
+            <button id="deleteVehicle">Deletar Veículo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
