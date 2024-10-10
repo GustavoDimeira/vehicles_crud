@@ -13,22 +13,6 @@ Tecnologias Utilizadas:
 - Backend: Node.js, Express, MongoDB
 - CORS: Para permitir requisições de diferentes origens
 
-Estrutura do Projeto:
-vehicles-crud/
-├── backend/
-│   ├── app.js
-│   ├── index.js
-│   ├── model/
-│   │   └── VehiclesModel.js
-│   ├── service/
-│   │   └── VehiclesService.js
-│   ├── utils.js
-├── frontend/
-│   ├── index.html
-│   ├── script.js
-│   └── styles.css
-└── README.md
-
 Como Configurar:
 1. Clone o repositório:
    git clone https://github.com/GustavoDimeira/vehicles_crud
@@ -48,7 +32,6 @@ Como Configurar:
    Abra o arquivo index.html no navegador.
 
 Exemplos de Entrada:
-Aqui estão alguns exemplos de dados que você pode usar para cadastrar veículos:
 - Exemplo 1:
   - Cor: Vermelho
   - Modelo: Fusca
@@ -64,7 +47,7 @@ Aqui estão alguns exemplos de dados que você pode usar para cadastrar veículo
   - Modelo: Civic
   - Placa: GHI3H67
 
-Como Usar:
+Como Usar o Front_End:
 1. Adicionar Veículo: Preencha os campos de cor, modelo e placa e clique em "Adicionar Veículo".
 2. Listar Veículos: Clique no botão "Listar Veículos" para ver todos os veículos cadastrados.
 3. Atualizar Veículo: Insira o ID do veículo que deseja atualizar e clique em "Atualizar Veículo".
